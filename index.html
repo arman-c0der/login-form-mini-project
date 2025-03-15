@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+ <div class="flex flex-col w-full max-w-md px-4 py-8 bg-white rounded-lg shadow mx-auto">
+  <div class="self-center mb-6 text-xl font-light text-gray-600 sm:text-2xl">
+    Login to Your Account
+  </div>`
+  <!-- social login button container -->
+  <div class="flex gap-4 item-center">
+    <button type="button" class="py-2 px-4 flex justify-center items-center bg-blue-600 hover:bg-blue-700 focus:ring-blue-500  focus:ring-offset-blue-200 text-center text-base font-semibold shadow shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg w-full text-white transition ease-in duration-200">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white "><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>Facebook</button>
+    <button  type="button" class="py-2 px-4 flex justify-center items-center bg-red-600 hover:opacity-90 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full tansition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg">
+     <img src="./image/google.png" alt="" class="w-8 h-8">Google</button>
+  </div>
+  <!-- form login -->
+   <div class="mt-8">
+    <form action="" method="post">
+      <div class="flex flex-col mb-2 ">
+        <div class="flex relative ">
+          <span class="rounded-l-md inline-flex items-center px-3 border-t bg-white border-l border-b border-gray-300 text-gray-500 shadow-sm text-sm">
+            <svg width="15" h-15  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+              <path d="M19.5 22.5a3 3 0 0 0 3-3v-8.174l-6.879 4.022 3.485 1.876a.75.75 0 1 1-.712 1.321l-5.683-3.06a1.5 1.5 0 0 0-1.422 0l-5.683 3.06a.75.75 0 0 1-.712-1.32l3.485-1.877L1.5 11.326V19.5a3 3 0 0 0 3 3h15Z" />
+              <path d="M1.5 9.589v-.745a3 3 0 0 1 1.578-2.642l7.5-4.038a3 3 0 0 1 2.844 0l7.5 4.038A3 3 0 0 1 22.5 8.844v.745l-8.426 4.926-.652-.351a3 3 0 0 0-2.844 0l-.652.351L1.5 9.589Z" />
+            </svg>
+            
+          </span>
+       <input type="text" name="" id="email" class="rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+       placeholder="Your Email">
+        </div>
+      </div>
+
+      <div class="flex flex-col mb-6">
+        <div class="flex relative">
+          <span class="rounded-l-md inline-flex items-center px-3 border-t bg-white border-l border-b border-gray-300 text-gray-500 shadow-sm text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+              <path fill-rule="evenodd" d="M12 1.5a5.25 5.25 0 0 0-5.25 5.25v3a3 3 0 0 0-3 3v6.75a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-6.75a3 3 0 0 0-3-3v-3c0-2.9-2.35-5.25-5.25-5.25Zm3.75 8.25v-3a3.75 3.75 0 1 0-7.5 0v3h7.5Z" clip-rule="evenodd" />
+            </svg>
+            
+            
+            
+          </span>
+       <input type="password" name="" id="password" class="rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+       placeholder="Your Password">
+        </div>
+      </div>
+      <div class="flex items-center mb-6 -mt-4 ">
+        <div class="flex ml-auto">
+          <a href="#" class="inline-flex text-xs font-thin text-gray-500 sm:text-sm hover:text-gray-700">
+            Forget Your Password?
+          </a>
+        </div>
+      </div>
+      <div class="flex w-full">
+        <button type="submit" class="py-2 px-4 bg-purple-600 hover:bg-purple-700 focus:ring-purple-500 focus:ring-offset-pink-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg">Login</button>
+      </div>
+    </form>
+   </div>
+   <div class="flex items-center justify-center mt-6 ">
+    <a href="#" class="inline-flex items-center  text-xs font-thin text-center text-gray-500 hover:text-gray-700">
+      You don't have an account
+    </a>
+   </div>
+ </div>
+</body>
+</html>
